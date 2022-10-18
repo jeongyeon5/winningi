@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import Slidebar from "./compenets/Slidebar";
+import Slidebar from "./components/Slidebar";
 import Board from "./pages/Board";
 import BoardDetail from "./pages/BoardDetail";
 import Main from "./pages/Main";

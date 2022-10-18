@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-
+import Chart from '../components/Chart';
 const Main = () => {
     return (
         <MainWrap>
-            메인페이지
+            <Chart />
         </MainWrap>
     );
 };
