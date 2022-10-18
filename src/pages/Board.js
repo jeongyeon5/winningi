@@ -1,4 +1,15 @@
+import styled from 'styled-components';
+
+
 const Board = () => {
-    return <>보드</>;
+    return (
+        <BoardWrap>
+            보드페이지
+        </BoardWrap>
+    );
 };
+
+const BoardWrap = styled.div`
+    margin-left: 200px;
+`
 export default Board;
