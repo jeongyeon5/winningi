@@ -15,16 +15,22 @@ const Board = () => {
     }, []);
     return (
         <BoardWrap>
-            <div className="">
-                게시판
+            <div className="boardInner">
+                <div className="boarTitle">게시판</div>
                 <BoardLayout boardData={boardData} />
             </div>
-           
         </BoardWrap>
     );
 };
 
 const BoardWrap = styled.div`
     margin-left: 200px;
+    .boardInner {
+        margin: 50px 50px;
+        .boarTitle {
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+    }
 `
 export default Board;  

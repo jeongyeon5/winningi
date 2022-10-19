@@ -4,48 +4,38 @@ import BoardList from "./components/boardList";
 const BoardLayout = ({ boardData }) => {
     // console.log('boardData', boardData);
     return (<>
-     
         <BoardTable>
             <colgroup>
-                <col width="10%" />
+                <col width="5%" />
                 <col width="70%" />
-                <col width="10%" />
-                <col width="10%" />
-
-
+                <col width="12%" />
+                <col width="13%" />
             </colgroup>
-                <thead>
-                    <tr>
-                        <th>No</th>
-                        <th>제목</th>
-                        <th>작성자</th>
-                        <th>작성시간</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <BoardList boardData={boardData} />
-                </tbody>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>제목</th>
+                    <th>작성자</th>
+                    <th>작성시간</th>
+                </tr>
+            </thead>
+            <tbody>
+                <BoardList boardData={boardData} />
+            </tbody>
         </BoardTable>
-     
-       
-
     </>)
 }
 const BoardTable = styled.table`
     width: 100%;
-	border: 1px solid #444;
-	border-collapse: collapse;
     thead {
         tr {
-            background-color: #ddd;
+            background-color: #5ba7e1;
+            color: #fff;
         }
-    }
-    tr {
-        cursor: pointer;
-        th, td {
-            border: 1px solid #444;
-			padding: 10px;
-			font-size: 14px;
+        th {
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: 500;
         }
     }
 `
