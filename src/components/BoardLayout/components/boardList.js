@@ -1,11 +1,13 @@
 import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
 
 const BoardList = ({ boardData }) => {
+    const navigate = useNavigate();
     return(<>
         {boardData &&
             boardData.map((board,idx)=> {
                 return (
-                    <BoardColumn key={idx}>
+                    <BoardColumn key={idx} onClick={() => navigate(`/board/${board.id}`) }>
                         <td align="center">{board.id}</td>
                         <td>{board.title}</td>
                         <td align="center">{board.writer}</td>

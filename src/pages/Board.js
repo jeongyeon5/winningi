@@ -6,13 +6,14 @@ import BoardLayout from '../components/BoardLayout';
 const Board = () => {
 
     const [ boardData, setBoardData] = useState([]);
-
+    
     useEffect(() => {
         fetch("/data/board.json")
         .then((res) => res.json())
             .then((data) => setBoardData(data.BoardData))
             // .then((data) => console.log(data.BoardData))
     }, []);
+
     return (
         <BoardWrap>
             <div className="boardInner">
@@ -26,7 +27,7 @@ const Board = () => {
 const BoardWrap = styled.div`
     margin-left: 200px;
     .boardInner {
-        margin: 50px 50px;
+        margin: 50px;
         .boarTitle {
             font-size: 40px;
             margin-bottom: 30px;
