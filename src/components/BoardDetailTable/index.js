@@ -16,7 +16,11 @@ const BoardDetailTable = () => {
   return (
     boardData && (
       <Wrap>
-        <div className='detailInner'>{boardData[id].title}</div>
+        <div className='detailInner'>
+          <div className='detailTitle'>{boardData[id - 1].title}</div>
+          <div className='detailDate'>{boardData[id - 1].data}</div>
+          <div className='detailContent'>{boardData[id - 1].detail.content}</div>
+        </div>
       </Wrap>
     )
   );
@@ -30,6 +34,13 @@ const Wrap = styled.div`
       margin-bottom: 30px;
     }
     .detailDate {
+      margin-bottom: 10px;
+    }
+    .detailContent {
+      border: 1px solid #555;
+      background-color: #f5f5f5;
+      height: 500px;
+      padding: 20px;
     }
   }
 `;
