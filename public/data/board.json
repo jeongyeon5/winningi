@@ -1,0 +1,31 @@
+{
+    "BoardData" : [
+        {
+            "id": 1,
+            "title": "게시판 1",
+            "writer": "유저 1",
+            "data": "22.08.30",
+            "detail": {
+                "content": "내용"
+            }
+        },
+        {
+            "id": 2,
+            "title": "게시판 2",
+            "writer": "유저 2",
+            "data": "22.08.20",
+            "detail": {
+                "content": "내용"
+            }
+        },
+        {
+            "id": 3,
+            "title": "게시판 1",
+            "writer": "유저 1",
+            "data": "22.08.25",
+            "detail": {
+                "content": "내용"
+            }
+        }
+    ]
+}

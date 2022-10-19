@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
+import BoardDetailTable from "./components/BoardDetailTable";
 import Slidebar from "./components/Slidebar";
 import Board from "./pages/Board";
 import BoardDetail from "./pages/BoardDetail";
@@ -16,7 +17,9 @@ const Router = () => {
                 <Routes>
                     <Route path="/" element={<Main />} />
                     <Route path="board" element={<Board />} />
-                    <Route path="board/:id" element={<BoardDetail />} />
+                    {/* <Route path="board/:id" element={<BoardDetail />} /> */}
+                    <Route path="board/:id" element={<BoardDetailTable />} />
+                    
                 </Routes>
             </BrowserRouter>
         </ThemeProvider>

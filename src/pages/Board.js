@@ -1,10 +1,12 @@
 import styled from 'styled-components';
+import BoardLayout from '../components/BoardLayout';
 
 
 const Board = () => {
     return (
         <BoardWrap>
-            보드페이지
+            게시판
+            <BoardLayout />
         </BoardWrap>
     );
 };
