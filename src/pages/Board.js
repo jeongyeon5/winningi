@@ -15,8 +15,11 @@ const Board = () => {
     }, []);
     return (
         <BoardWrap>
-            게시판
-            <BoardLayout boardData={boardData}/>
+            <div className="">
+                게시판
+                <BoardLayout boardData={boardData} />
+            </div>
+           
         </BoardWrap>
     );
 };
