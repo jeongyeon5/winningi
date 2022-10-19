@@ -6,7 +6,7 @@
             "writer": "유저 1",
             "data": "22.08.30",
             "detail": {
-                "content": "내용"
+                "content": "내용1"
             }
         },
         {
@@ -15,17 +15,82 @@
             "writer": "유저 2",
             "data": "22.08.20",
             "detail": {
-                "content": "내용"
+                "content": "내용2"
             }
         },
         {
             "id": 3,
-            "title": "게시판 1",
-            "writer": "유저 1",
+            "title": "게시판 3",
+            "writer": "유저 3",
             "data": "22.08.25",
             "detail": {
-                "content": "내용"
+                "content": "내용3"
+            }
+        },
+        {
+            "id": 4,
+            "title": "게시판 4",
+            "writer": "유저 4",
+            "data": "22.08.25",
+            "detail": {
+                "content": "내용4"
+            }
+        },
+        {
+            "id": 5,
+            "title": "게시판 5",
+            "writer": "유저 5",
+            "data": "22.08.30",
+            "detail": {
+                "content": "내용5"
+            }
+        },
+        {
+            "id": 6,
+            "title": "게시판 6",
+            "writer": "유저 6",
+            "data": "22.08.20",
+            "detail": {
+                "content": "내용6"
+            }
+        },
+        {
+            "id": 7,
+            "title": "게시판 7",
+            "writer": "유저 7",
+            "data": "22.08.25",
+            "detail": {
+                "content": "내용7"
+            }
+        },
+        {
+            "id": 8,
+            "title": "게시판 8",
+            "writer": "유저 8",
+            "data": "22.08.25",
+            "detail": {
+                "content": "내용8"
+            }
+        },
+        {
+            "id": 9,
+            "title": "게시판 9",
+            "writer": "유저 9",
+            "data": "22.08.25",
+            "detail": {
+                "content": "내용9"
+            }
+        },
+        {
+            "id": 10,
+            "title": "게시판 10",
+            "writer": "유저 10",
+            "data": "22.08.25",
+            "detail": {
+                "content": "내용10"
             }
         }
+
+        
     ]
 }
