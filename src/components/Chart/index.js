@@ -19,7 +19,8 @@ const ChartWrap = styled.div`
   display: flex;
   justify-content: space-between;
   overflow-y: scroll;
-  @media (max-width: 768px) {
+  padding: 50px 20px;
+  @media (max-width: 1024px) {
     flex-direction: column;
     width: 100%;
   }

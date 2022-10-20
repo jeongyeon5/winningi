@@ -77,6 +77,9 @@ const MonthlyPost = () => {
 };
 const ChartWrap = styled.div`
   width: 30%;
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
   @media (max-width: 768px) {
     width: 100%;
   }

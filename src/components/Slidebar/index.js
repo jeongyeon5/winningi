@@ -15,7 +15,7 @@ const Slidebar = () => {
       <SlideWrap>
         <CgMenu className='slideMenuIcon' size='30' onClick={handleSlide} />
         {slide && (
-          <div className='slideInner' slide={!slide}>
+          <div className='slideInner'>
             <CgClose size='30' className='closeBtn' onClick={() => setSlide(false)} />
             <div className='menuList'>
               <Link to={'/'} className='menu'>
